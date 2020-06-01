@@ -7,3 +7,8 @@ def sort_array_desc(array)
     a <=> b
   end
 end
+
+def (array)
+  array.sort do |a,b|
+    a <=> b
+end
